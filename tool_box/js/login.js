@@ -6,5 +6,8 @@ function validate(){
     alert("Login successfully");
     return false;
   }
+  else{
+    alert("Login failed");
+  }
   
 }
