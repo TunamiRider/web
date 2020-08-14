@@ -6,10 +6,10 @@ function validate(){
   
   /*if( username == "yuki" && password == "123" ){
     alert("Login successfully");
-    return false;
+    
   }
   else{
     alert("Login failed");
   }*/
-  
+  return false;
 }
