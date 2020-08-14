@@ -18,6 +18,12 @@
 
 	<!--Custom styles-->
 	<link rel="stylesheet" type="text/css" href="tool_box/css/css_main.css">
+	
+	<script>
+	function myFunction() {
+  	document.getElementById("demo").innerHTML = "Paragraph changed.";
+	}
+	</script>
 </head>
 <body>
 <div class="container">
@@ -65,5 +71,7 @@
 		</div>
 	</div>
 </div>
+	<p id="demo">A Paragraph</p>
+	<button type="button" onclick="myFunction()">Try it</button>
 </body>
 </html>
