@@ -1,4 +1,4 @@
-function validate(){
+export function validate(){
   //var username = document.getElementById("uname").value;
   //var password = document.getElementById("psw").value;
   
