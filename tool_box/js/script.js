@@ -6,6 +6,7 @@ function validate(){
   
   if( username == "yuki" && password == "123" ||
       username == "satoshi" && password == "456" ){
+    location.replace("https://www.w3schools.com");
     alert("Login successfully");
     
   }
