@@ -4,7 +4,8 @@ function validate(){
   
   console.log(username +" "+password); 
   
-  if( username == "yuki" && password == "123" ){
+  if( username == "yuki" && password == "123" ||
+      username == "satoshi" && password == "456" ){
     alert("Login successfully");
     
   }
