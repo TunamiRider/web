@@ -15,3 +15,17 @@ function validate(){
   }
   return false;
 }
+function access_firebse(){
+  var fs = require('fs');
+  var connect = require('connect')
+      , https = require('https');
+  
+  var options = {
+    key:    fs.readFileSync('ssl/server.key'),
+    cert:   fs.readFileSync('ssl/server.crt'),
+    ca:     fs.readFileSync('ssl/ca.crt')
+  };
+  
+  var app = connect();
+  https.createServer(options,app).listen(3000);
+}
