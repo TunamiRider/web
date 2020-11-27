@@ -6,7 +6,7 @@ function validate(){
   
   if( username == "yuki" && password == "123" ||
       username == "satoshi" && password == "456" ){
-    window.location.replace("https://www.w3schools.com/html/html_links.asp");
+    window.location.replace("../../pages/twolinks.html");
     alert("Login successfully");
     
   }
