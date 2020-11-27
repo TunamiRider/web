@@ -6,7 +6,7 @@ function validate(){
   
   if( username == "yuki" && password == "123" ||
       username == "satoshi" && password == "456" ){
-    window.location.href("../../pages/twolinks.html");
+    window.location.assign("../../pages/twolinks.html");
     alert("Login successfully");
     
   }
