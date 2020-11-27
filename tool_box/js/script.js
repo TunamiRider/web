@@ -6,7 +6,7 @@ function validate(){
   
   if( username == "yuki" && password == "123" ||
       username == "satoshi" && password == "456" ){
-    location.replace("https://tunamirider.github.io/web/pages/twolinks.html");
+    window.location.replace("https://www.w3schools.com/html/html_links.asp");
     alert("Login successfully");
     
   }
