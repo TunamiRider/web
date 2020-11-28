@@ -10,6 +10,10 @@ height: 100%;
 font-family: 'Numans', sans-serif;
 }
 
+#bg2 {
+  background: url(img_flwr.gif);
+}
+
 .container{
 height: 100%;
 align-content: center;
