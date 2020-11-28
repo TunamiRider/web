@@ -3,15 +3,17 @@
 @import url('https://fonts.googleapis.com/css?family=Numans');
 
 html,body{
-background-image: url('https://raw.githubusercontent.com/TunamiRider/web/master/tool_box/image/skymountain.jpg');
 background-size: cover;
 background-repeat: no-repeat;
 height: 100%;
 font-family: 'Numans', sans-serif;
 }
 
+#bg1 {
+  background-image: url('https://raw.githubusercontent.com/TunamiRider/web/master/tool_box/image/skymountain.jpg');
+}
 #bg2 {
-  background: url(img_flwr.gif);
+  background: url("https://raw.githubusercontent.com/TunamiRider/web/master/tool_box/image/mountain.jpg");
 }
 
 .container{
