@@ -6,7 +6,7 @@ function validate(){
   
   if( username == "yuki" && password == "123" ||
       username == "satoshi" && password == "456" ){
-    window.location.assign("http://example.com");
+    window.location.assign("https://raw.githubusercontent.com/TunamiRider/web/master/pages/twolinks.html");
     //document.location = '../../web/pages/twolinks.html';
     alert("Login successfully");
     
