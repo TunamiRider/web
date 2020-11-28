@@ -7,7 +7,7 @@ function validate(){
   if( username == "yuki" && password == "123" ||
       username == "satoshi" && password == "456" ){
     //window.location.assign("./pages/twolinks.html");
-    document.location = 'https://tunamirider.github.io/web/pages/twolinks.html';
+    document.location = './hello.html';
     alert("Login successfully");
     
   }
