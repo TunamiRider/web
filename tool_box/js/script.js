@@ -17,7 +17,8 @@ function validate(){
   }
   return false;
 }
-function access_firebse(){
+
+function access_firebase(){
   const fs = require('fs');
   const connect = require('connect')
       , https = require('https');
