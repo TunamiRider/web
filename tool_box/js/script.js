@@ -1,6 +1,6 @@
 function validate(){
-  var username = document.getElementById("uname").value;
-  var password = document.getElementById("psw").value;
+  const username = document.getElementById("uname").value;
+  const password = document.getElementById("psw").value;
   
   console.log(username +" "+password); 
   
@@ -18,16 +18,16 @@ function validate(){
   return false;
 }
 function access_firebse(){
-  var fs = require('fs');
-  var connect = require('connect')
+  const fs = require('fs');
+  const connect = require('connect')
       , https = require('https');
   
-  var options = {
+  const options = {
     key:    fs.readFileSync('ssl/server.key'),
     cert:   fs.readFileSync('ssl/server.crt'),
     ca:     fs.readFileSync('ssl/ca.crt')
   };
   
-  var app = connect();
+  const app = connect();
   https.createServer(options,app).listen(3000);
 }
