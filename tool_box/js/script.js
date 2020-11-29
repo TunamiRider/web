@@ -8,7 +8,7 @@ function validate(){
       username == "satoshi" && password == "456" ){
     //window.location.assign("./pages/twolinks.html");
     //document.location = './hello.html';
-    window.location.replace("hello.html");
+    window.location.replace("../../hello.html");
     alert("Login successfully");
     
   }
