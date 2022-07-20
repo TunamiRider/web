@@ -1,3 +1,9 @@
+module.exports = {
+  kit: {
+    floc: false
+  }
+};
+
 function validate(){
   const username = String(document.getElementById("uname").value);
   const password = String(document.getElementById("psw").value);
