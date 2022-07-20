@@ -1,6 +1,6 @@
 function validate(){
-  const username = document.getElementById("uname").value;
-  const password = document.getElementById("psw").value;
+  const username = String(document.getElementById("uname").value);
+  const password = String(document.getElementById("psw").value);
   
   console.log(username +" "+password); 
   
